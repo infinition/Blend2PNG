@@ -2,6 +2,7 @@ import bpy
 import os
 
 # path to the folder With R pour les double slash
+
 file_path = bpy.data.filepath
 file_name = bpy.path.display_name_from_filepath(file_path)
 file_ext = '.blend'
